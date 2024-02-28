@@ -8,7 +8,7 @@ export default function Home() {
         <title>ArgoXPlanet</title>
       </Head>
 
-      <h1> HI </h1>
+      
 
       <Header />
 
