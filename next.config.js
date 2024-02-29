@@ -1,5 +1,12 @@
 module.exports = {
     images: {
-        domains: ["links.papareact.com","fakestoreapi.com"],
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'links.papareact.com',
+                pathname: '**',
+            },
+    ],
+        // domains: ["links.papareact.com","fakestoreapi.com"],
     },
 };
