@@ -10,7 +10,7 @@ const Header = () => {
         <header>
             <div>
                 {/* Top nav */}
-                <div className='flex items-center bg-agrogreen-primarygreen p-2 h-[80px] flex-grow '>
+                <div className='flex items-center bg-agro-primarygreen p-2 h-[80px] flex-grow w-full'>
                     {/* <div>
                         <Image 
                             src="https://links.papareact.com/f90"
@@ -29,8 +29,8 @@ const Header = () => {
 
                     {/* Search bar */}
 
-                    <div className= 'hidden sm:flex items-center h-10 ml-2 pr-2 rounded-md flex-grow cursor-pointer bg-agrogreen-primarygreen  hover:bg-agrogreen-secondarygreen'>
-                        <input className='p-2 h-full  flex-grow flex-shrink rounded-l-md focus:outline-none' type="text" />
+                    <div className= 'hidden sm:flex items-center h-10 ml-2 pr-2 rounded-md flex-grow cursor-pointer bg-agro-primarygreen  hover:bg-agro-secondarygreen'>
+                        <input className='p-2 h-full  flex-grow flex-shrink rounded-md focus:outline-none' type="text" />
                         <IoSearch  className='text-2xl ml-[10px] '/>
                     </div>
 
@@ -39,17 +39,18 @@ const Header = () => {
                     <div className='text-black flex items-center text-xs space-x-6 mx-6 whitespace-nowrap'>
                         <div className='link'>
                             <p>Hello Nittin Nobby Mathew</p>
-                            <p>Accounts & List</p>
+                            <p className='font-extrabold md:text-sm'>Accounts & List</p>
                         </div>
 
                         <div className='link'>
                             <p>Returns</p>
-                            <p>& Orders</p>
+                            <p className='font-extrabold md:text-sm'>& Orders</p>
                         </div>
 
-                        <div className='link'>
+                        <div className='link relative flex items-center'>
+                            <span className='text-black absolute top-[-8px] right-[-6px] md:right-[41px] md:top-[-4px] h-4 w-4 bg-agro-basket text-center rounded-full font-bold'>0</span>
                             <HiOutlineShoppingCart className='text-2xl'/>
-                            <p>Basket</p>
+                            <p className=' hidden md:inline font-extrabold md:text-sm mt-3'>Basket</p>
                         </div>
                     </div>
                 </div>

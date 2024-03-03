@@ -13,9 +13,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        agrogreen: {
+        agro: {
           primarygreen: '#58c004',
-          secondarygreen: '#69c61d'
+          secondarygreen: '#69c61d',
+          basket: '#ace082'
         },
       },
     },
