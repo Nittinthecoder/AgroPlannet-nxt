@@ -10,7 +10,7 @@ const Header = () => {
         <header>
             <div>
                 {/* Top nav */}
-                <div className='flex items-center bg-lime-400 p-2 h-[100px] flex-grow '>
+                <div className='flex items-center bg-lime-400 p-2 h-[80px] flex-grow '>
                     {/* <div>
                         <Image 
                             src="https://links.papareact.com/f90"
