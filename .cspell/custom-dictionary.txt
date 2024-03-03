@@ -1,1 +1,4 @@
 # Custom Dictionary Words
+agrogreen
+primarygreen
+secondarygreen
