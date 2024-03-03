@@ -36,7 +36,7 @@ const Header = () => {
 
                     {/* right side  */}
 
-                    <div className='text-black flex items-center text-xs space-x-6 mx-6 whitespace-nowrap'>
+                    <div className='text-black flex items-center text-xs space-x-6 mx-7 whitespace-nowrap'>
                         <div className='link'>
                             <p>Hello Nittin Nobby Mathew</p>
                             <p className='font-extrabold md:text-sm'>Accounts & List</p>
