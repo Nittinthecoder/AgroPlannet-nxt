@@ -29,7 +29,7 @@ const Header = () => {
 
                     {/* Search bar */}
 
-                    <div className= 'hidden sm:flex items-center h-10 ml-2 rounded-md flex-grow cursor-pointer bg-lime-400 hover:bg-lime-600'>
+                    <div className= 'hidden sm:flex items-center h-10 ml-2 pr-2 rounded-md flex-grow cursor-pointer bg-lime-400 hover:bg-lime-600'>
                         <input className='p-2 h-full  flex-grow flex-shrink rounded-l-md focus:outline-none' type="text" />
                         <IoSearch  className='text-2xl ml-[10px] '/>
                     </div>
