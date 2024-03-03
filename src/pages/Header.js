@@ -1,12 +1,16 @@
 import React from 'react'
 // import Image from 'next/image'
+// import {MenuIcon, SearchIcon, ShoppingCartIcon} from "heroicons/react/outline"
+import { IoSearch } from "react-icons/io5";
+import { CiShoppingCart } from "react-icons/ci";
+
 
 const Header = () => {
   return (
         <header>
             <div>
                 {/* Top nav */}
-                <div className='flex items-center bg-lime-400 p-2 flex-grow '>
+                <div className='flex items-center bg-lime-400 p-2 h-[100px] flex-grow '>
                     {/* <div>
                         <Image 
                             src="https://links.papareact.com/f90"
@@ -24,8 +28,28 @@ const Header = () => {
                     </div>
 
                     {/* Search bar */}
-                    <div>
-                        <input type="text" />
+
+                    <div className= 'hidden sm:flex items-center h-10 ml-2 rounded-md flex-grow cursor-pointer bg-lime-400 hover:bg-lime-600'>
+                        <input className='p-2 h-full  flex-grow flex-shrink rounded-md focus:outline-none' type="text" />
+                        <IoSearch  className='h-8 '/>
+                    </div>
+
+                    {/* right side  */}
+
+                    <div className='text-white'>
+                        <div>
+                            <p>Hello Nittin Nobby Mathew</p>
+                            <p>Accounts & List</p>
+                        </div>
+
+                        <div>
+                            <p>Returns</p>
+                            <p>& Orders</p>
+                        </div>
+
+                        <div>
+                            <CiShoppingCart />
+                        </div>
                     </div>
                 </div>
             </div>
