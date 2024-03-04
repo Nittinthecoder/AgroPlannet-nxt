@@ -22,7 +22,6 @@ const Header = () => {
                     </div> */}
 
                     {/* if no logo use this */}
-
                     <div className='mt-2  flex items-center flex-grow sm:flex-grow-0 '>
                         <h2 className='font-medium text-1xl mb-[7px]'> ArgoXplanet </h2>
                     </div>
